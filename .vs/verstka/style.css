@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0; 
+}
+.container{
+    width: 700px;
+    margin: 0 auto;
+    border: 1px solid blue;
+}
+
+.header{
+    background: greenyellow;
+    height: 100px;
+}
+
+.left{
+    background: rgba(248, 119, 39, 0.884);
+    width: 200px;
+    float: left;
+}
+.menu{
+    background: yellow;
+    width: 200px;
+    float: right;
+}
+
+.content{
+    background: orange;
+    margin-right: 202px;
+    margin-left: 202px;
+
+}
+.footer{
+    background: silver;
+    height: 50px;
+    clear: both;
+}
