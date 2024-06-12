@@ -24,7 +24,7 @@ table td:first-child{
     font-weight: bold;
 }
 .pech{
-    text-align: center;
+    text-align: right;
 }
 input[type="submit"]{
     
