@@ -1,0 +1,40 @@
+
+#logo{
+    float:right; 
+    
+}
+.main{
+    border:solid 3px #99CCFF;
+    
+}
+.main td{
+    
+    width: 200px;
+    padding: 7px ;
+   white-space: nowrap;
+   vertical-align: top;
+}
+
+
+.main span{
+    font-size: 15px;
+    color: rgb(151, 151, 151);
+}
+table td:first-child{
+    font-weight: bold;
+}
+.pech{
+    text-align: center;
+}
+input[type="submit"]{
+    
+    width: 50%;
+    display: block; 
+    
+    
+}
+
+h4{
+    color: #3399FF;
+    padding-left: 3px;
+}
