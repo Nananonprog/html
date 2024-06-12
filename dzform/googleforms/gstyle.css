@@ -11,7 +11,7 @@
     
     width: 200px;
     padding: 7px ;
-   white-space: nowrap;
+  
    vertical-align: top;
 }
 
@@ -28,7 +28,7 @@ table td:first-child{
 }
 input[type="submit"]{
     
-    width: 50%;
+    width: 100%;
     display: block; 
     
     
