@@ -4,43 +4,327 @@ body{
     margin: 0;
     font-family: "Montserrat", sans-serif;
 }
-
+.wrap{
+    max-width: 1050px;
+    min-width: 418px;
+    margin: 0 auto;
+}
 /* header top */
 .top{
     background: rgb(243, 243, 243);
+    padding-bottom: 120px;
 
 }
 
-.wrap{
-    max-width: 1050px;
-    margin: 0 auto;
+.title{
+    color: rgb(37, 43, 66);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    margin: 0 0 10px;
+
 }
+.description{
+    color: rgb(115, 115, 115);
+    
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+
 
 .top__container{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .top__container ul{
     display: flex;
     list-style-type: none;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin: 40px 0;
+    
 }
 .top__container a{
     text-decoration: none;
-color: rgb(115, 115, 115);
-font-size: 14px;
-font-weight: 600;
-line-height: 24px;
-letter-spacing: 0.2px;
+    color: rgb(115, 115, 115);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    margin-left: 21px;
 
 }
 .top__container h3{
 color: rgb(37, 43, 66);
+/* display: flex; */
 font-size: 24px;
 font-weight: 700;
 line-height: 32px;
 letter-spacing: 0.1px;
-margin-left: 21px;
+}
+
+.top h1{
+    color: rgb(37, 43, 66);
+    font-size: 58px;
+    font-weight: 800;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 40px;
+}
+
+.top h4{
+    color: rgb(115, 115, 115);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.top__buttons{
+    text-align: center;
+    
+}
+.top__buttons--left{
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    border-radius: 37px;
+    background: rgb(255, 166, 43);
+    border: none;
+    /* padding: 10px 36px; */
+    width: 187px;
+    height: 48px;
+    margin-right: 5px;
 
 }
+.top__buttons--right{
+    color: rgb(0, 160, 193);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    box-sizing: border-box;
+/* secondary-color-1 */
+    border: 1px solid rgb(0, 160, 193);
+    border-radius: 37px;
+    width: 157px;
+    height: 48px;
+    margin-left: 5px;
+    
+}
+/* choose */
+.choose{
+    padding: 145px 0 70px;
+}
+.choose__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.choose__element{
+    flex-basis: 328px;
+    box-sizing: border-box;
+    border: 1px solid rgb(232,232,232);
+    background: rgb(255,255,255);
+    padding: 35px 40px;
+    margin-bottom: 30px;
+}
+
+.choose__element--title{
+    display: flex;
+    align-items: center;
+
+}
+
+.choose__element--title h5{
+    color: rgb(37, 43, 66);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    text-align: left;
+    margin: 0 0 0 15px;
+}
+
+.choose__element--description{
+    color: rgb(115, 115, 115);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    margin: 15px 0 0;
+
+}
+
+/* team */
+.team{
+   
+    padding: 80px 62px;
+
+}
+.team__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.team__element{
+    margin-bottom: 30px;
+}
+
+.team__element > img{
+    width: 100%;
+}
+.team__element h5{
+    color: rgb(37, 43, 66);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    text-align: center;
+    margin: 30px 0 5px;
+}
+
+.team__element h6{
+    color: rgb(37, 43, 66);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    text-align: center;
+    margin: 0 0 5px;
+}
+
+.team__element--social{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.team__element--social img{
+    margin: 0 8px 0 7px;
+}
+
+.clients{
+    background: rgb(243, 243, 243);
+    padding: 80px 0 80px;
+}
+.clients__container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.clients__element{
+    flex-basis: 328px;
+    box-sizing: border-box;
+    border: 1px solid rgb(222, 222, 222);
+    border-radius: 5px;
+    padding: 30px 35px;
+
+/* light background */
+background: rgb(255, 255, 255);
+}
+.clients__element--title{
+    display: flex;
+    align-items: center;
+
+}
+
+.clients__element--profile div{
+/* link */
+    color: rgb(255, 166, 43);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    margin: 0 0 0 15px;
+}
+.clients__element--profile h6{
+    /* h6 */
+    color: rgb(37, 43, 66);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    margin: 0 0 0 15px;
+
+    
+}
+.clients__element h6{
+    /* h6 */
+    color: rgb(115, 115, 115);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    
+}
+@media(max-width:1050px){
+    .top, .choose, .team{
+        padding-left: 16px;
+        padding-right: 16px;
+        box-sizing: border-box;
+    }
+}
+@media(max-width: 1030px){
+    .choose__container,
+    .team__element{
+        justify-content: space-evenly;
+    }
+}
+
+@media(max-width:760px){
+    .break{
+        display: none;
+    }
+    .top h1{
+        font-size: 50px;
+    }
+    
+    @media(max-width: 710px){
+        .choose__element,
+        .team__element{
+            flex-basis: 100%;
+        }
+    }
+}
+@media(max-width:430px){
+    .top{
+        padding-left: 63px;
+        padding-right: 63px;
+        box-sizing: border-box;
+    }
+    .top h1{
+        font-size: 40px;
+    }
+    .top__buttons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .top__buttons--left{
+        margin-right:0 ;
+        
+    }
+    .top__buttons--right{
+        margin-left: 0;
+    }
+    
+}
+

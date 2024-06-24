@@ -1,0 +1,5 @@
+with open(r'C:\Python\data.txt', 'r') as file:
+    lines = file.readlines()
+
+with open(r'C:\\Python\\data.txt', 'w') as file:
+    file.writelines(lines[1:])
